@@ -14,6 +14,12 @@ class Ex06_CalcChecksum_Test(unittest.TestCase):
         result = calc_checksum(n)
         self.assertEqual(expected, result)
 
+    def test_numberAsText_WrongInput(self):
+        from challenges.c006_checksum import calc_checksum
+        with self.assertRaises(Exception) as excinfo:
+            calc_checksum("ABC")
+        self.assertTrue("illegal chars" in str(excinfo.exception))
+
 
 if __name__ == '__main__':
     unittest.main()

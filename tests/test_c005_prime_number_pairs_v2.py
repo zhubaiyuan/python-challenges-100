@@ -12,3 +12,7 @@ class PrimeNumberPairsTest(unittest.TestCase):
         max_value = 50
         result = calc_pairs(max_value, n)
         self.assertEqual(expected, result)
+
+
+if __name__ == '__main__':
+    unittest.main()

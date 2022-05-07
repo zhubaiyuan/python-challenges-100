@@ -54,3 +54,7 @@ class RomanNumbersTest(unittest.TestCase):
         self.assertEqual(expected, result)
         result1 = to_roman_number_v1(roman_number)
         self.assertEqual(expected, result1)
+
+
+if __name__ == '__main__':
+    unittest.main()

@@ -15,3 +15,7 @@ class MaxChangeCalculatorTest(unittest.TestCase):
         from challenges.c010_max_change_calculator import calc_max_possible_change
         result = calc_max_possible_change(coins)
         self.assertEqual(result, max_change)
+
+
+if __name__ == '__main__':
+    unittest.main()

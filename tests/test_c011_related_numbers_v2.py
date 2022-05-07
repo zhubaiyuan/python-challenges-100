@@ -11,3 +11,7 @@ class RalatedNumbersTest(unittest.TestCase):
         from challenges.c011_related_numbers import calc_friends
         result = calc_friends(max_exclusive)
         self.assertEqual(result, friends)
+
+
+if __name__ == '__main__':
+    unittest.main()

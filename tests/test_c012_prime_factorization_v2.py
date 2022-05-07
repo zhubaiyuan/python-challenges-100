@@ -18,3 +18,7 @@ class PrimeFactorizationTest(unittest.TestCase):
         self.assertEqual(result, primefactors)
         result1 = calc_prime_factors_v2(value)
         self.assertEqual(result1, primefactors)
+
+
+if __name__ == '__main__':
+    unittest.main()
