@@ -1,5 +1,4 @@
 import unittest
-from unittest import result
 from parameterized import parameterized
 
 
