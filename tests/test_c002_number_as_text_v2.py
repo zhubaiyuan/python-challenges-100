@@ -2,7 +2,7 @@ import unittest
 from parameterized import parameterized
 
 
-class Ex02_NumberAsText_Test(unittest.TestCase):
+class NumberAsTextTest(unittest.TestCase):
     @parameterized.expand(
         [(7, "SEVEN"),
          (42, "FOUR TWO"),
