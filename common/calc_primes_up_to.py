@@ -33,3 +33,12 @@ def calc_primes_up_to_v2(max_value):
             erase_multiples_of_current(is_potentially_prime, number)
     is_potentially_prime[0:2] = False, False
     return list(itertools.compress(range(len(is_potentially_prime)), is_potentially_prime))
+
+
+def main():
+    print(calc_primes_up_to(50))
+    print(calc_primes_up_to_v2(50))
+
+
+if __name__ == "__main__":
+    main()
