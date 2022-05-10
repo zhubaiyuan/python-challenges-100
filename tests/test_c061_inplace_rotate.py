@@ -1,4 +1,4 @@
-from challenges.c061_inplace_rotate import rotate_inplace, rotate_inplace_v2, rotate_inplace_v3
+from challenges.c061_inplace_rotate import rotate_inplace, rotate_inplace_v3
 
 
 def test_rotation():
