@@ -1,6 +1,5 @@
 from common.binary_tree_node import BinaryTreeNode
 from common.insert import insert
-from common.nice_print import nice_print
 
 
 def create_example_tree():
@@ -40,12 +39,3 @@ def create_integer_number_tree():
     insert(_4, 5)
     insert(_4, 7)
     return _4
-
-
-def main():
-    number_root = create_integer_number_tree()
-    nice_print(number_root)
-
-
-if __name__ == "__main__":
-    main()

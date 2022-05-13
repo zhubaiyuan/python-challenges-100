@@ -6,7 +6,7 @@ from common.spacing_between_nodes import spacing_between_nodes
 from common.draw_connections import draw_connections
 from common.spacing_between_connections import spacing_between_connections
 from common.tree_height import get_height
-from common import example_trees
+from common.example_trees import create_example_tree
 
 
 def nice_print(start_node):
@@ -50,7 +50,7 @@ def nice_print(start_node):
 
 
 def main():
-    root = example_trees.create_example_tree()
+    root = create_example_tree()
     nice_print(root)
 
 
